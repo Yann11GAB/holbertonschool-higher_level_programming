@@ -1,14 +1,12 @@
 #!/usr/bin/python3
+"""
+Python program to demonstrate
+"""
+
+
 class Square:
     """
-    This class defines a square.
+    nmake None
     """
-
     def __init__(self, size):
-        """
-        Initializes a new Square instance.
-        
-        Args:
-            size: The size of the square (no type/value verification)
-        """
         self.__size = size
