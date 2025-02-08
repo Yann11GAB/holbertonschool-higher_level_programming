@@ -1,12 +1,12 @@
 #!/usr/bin/python3
+"""
+python program
+"""
+
 class MyList(list):
     """
-    A custom list class that inherits from the built-in list class.
+    this is class that define a list
     """
-
     def print_sorted(self):
-        """
-        Prints the list in ascending sorted order.
-        """
         sorted_list = sorted(self)
         print(sorted_list)
