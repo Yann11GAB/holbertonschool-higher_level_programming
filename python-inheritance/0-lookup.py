@@ -1,12 +1,11 @@
 #!/usr/bin/python3
+"""
+python program
+"""
+
+
 def lookup(obj):
     """
-    Returns a list of available attributes and methods of an object.
-    
-    Args:
-        obj: Any Python object
-    
-    Returns:
-        list: A sorted list of attributes and methods of the object
+    this is method
     """
-    return sorted(dir(obj))
+    return dir(obj)
